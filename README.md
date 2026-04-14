@@ -1,0 +1,1 @@
+# base44-labor-management
