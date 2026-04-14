@@ -1,0 +1,42 @@
+base44-labor-management/
+│
+├── README.md
+│
+├── docs/
+│   ├── architecture.md
+│   ├── base44-migration-guide.md
+│   ├── data-model.md
+│   ├── forecasting-design.md
+│   └── ui-wireframes.md
+│
+├── database/
+│   ├── create_tables.sql
+│   ├── migrate_from_sqlite.sql
+│   ├── seed_data.sql
+│   └── schema_diagram.png
+│
+├── functions/
+│   ├── forecasting/
+│   │   ├── handler.py
+│   │   ├── regression.py
+│   │   ├── moving_average.py
+│   │   └── requirements.txt
+│   │
+│   └── utils/
+│       ├── date_helpers.py
+│       └── math_helpers.py
+│
+├── assets/
+│   ├── logo.png
+│   ├── favicon.ico
+│   └── icons/
+│       ├── dashboard.svg
+│       ├── forecast.svg
+│       └── site.svg
+│
+└── api/
+    ├── openapi.yaml
+    ├── endpoints.md
+    └── examples/
+        ├── forecast_request.json
+        └── forecast_response.json
